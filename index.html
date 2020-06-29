@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/vendors/normalize.css"/>
+    <link rel="stylesheet" href="css/vendors/fluid_grid.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <style>
+
+        * {
+            box-sizing : border-box;
+            margin :0;
+            padding :0;
+        }
+
+        html {
+            font-family: 'Lato', 'Arial', sans-serif;
+            font-size : 20px;
+            font-weight: 300;
+            text-rendering: optimizeLegibility;
+        }
+
+
+
+
+        header {
+            background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)),  url("images/Background_Hiring.jpg");
+            height : 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .logo {
+            height : 100px;
+            width : auto;
+            float: left;
+            margin-top: 20px;
+        }
+
+        .main-nav {
+            margin-top : 60px;
+            float : right;
+            list-style: none;
+        }
+
+        .main-nav li {
+            display : inline-block;
+            margin-left : 40px;
+        }
+
+
+        .main-nav li a {
+            color : white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size : 80%;
+            transition : border-bottom 0.2s;
+            padding : 8px 0;
+
+        }
+
+
+        .main-nav li a:hover,
+        .main-nav li a:active {
+            border-bottom : 2px solid #f1c40f;
+        }
+
+ 
+        .header-info {
+            position : absolute;
+            top: 50%;
+            left : 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .header-info h1 {
+            color : white;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin : 0px;
+            font-size : 200%;
+            font-weight : 300;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            word-spacing: 4px;
+            
+        }
+
+        .row {
+            max-width: 960px;
+            margin : 0 auto;
+        }
+
+
+
+        .container {
+            margin-left : auto;
+            margin-right : auto;
+            margin-top : 20px;
+            padding : 10px;
+            max-width : 960px;
+            
+        }
+
+        .recruiter-info {
+            width : 50%;
+            float : left;
+            padding : 10px;
+        }
+
+        .candidate-info {
+            width : 50%;
+            float : left;
+            padding : 10px;
+        }
+
+        .requisition-info {
+            padding : 10px;
+        }
+
+        .clearfix:after {
+            content : "";
+            display : table;
+            clear : both;
+        }
+
+        .description {
+            text-align: justify;
+            font-size: 15px;
+            line-height: 150%;
+            font-family: sans-serif;
+        }
+
+       
+
+        .btn:link,
+        .btn:visited {
+            display : inline-block;
+            padding : 10px 30px;
+            font-weight : 300;
+            text-decoration: none;
+            border-radius : 200px;
+            transition : background-color 0.2s, border 0.2s, color  0.2s;
+        }
+
+        .btn-full:link,.btn-full:visited {
+            background-color : #f1c40f;
+            border : 1px solid #f1c40f;
+            color : #fff;
+            margin-right: 20px;
+        }
+
+        .btn-ghost:link,
+        .btn-ghost:visited {
+            border : 1px solid #f1c40f;
+            color : #f1c40f;
+        }
+
+        .btn-ghost:hover,
+        .btn-ghost:active {
+           border : 1px solid #ccaa20; 
+           color:white;
+        }
+
+        .btn:hover,
+        .btn:active {
+            background-color: #ccaa20;
+        }
+
+        .btn-full:hover, .btn-full:active {
+            border : 1px solid #ccaa20;
+        }
+
+
+        
+
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <nav>
+            <div class="row">
+                <img src = "images/Logo_White.png" class="logo" />
+                <ul class = "main-nav">
+                    <li><a href="#">Follow Us</a></li>
+                    <li><a href="#"> Choose Language</a></li>
+                    <li><a href="#">Our Clients</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header-info">
+            <h1>Simplify Recruitment Onboarding Process</h1>
+            <a class="btn btn-full" href="#">Search for Jobs</a>
+            <a class="btn btn-ghost" href="#">Register</a>
+        </div>
+    </header>
+
+
+
+    <main>
+        
+        <div class="container">
+
+            <div class="recruiter-info">
+                <h1>Recruiter Dashboard</h1>
+                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, maxime hic eligendi illo perferendis aliquid assumenda totam id, repellat dolorum quia quaerat nulla quod corrupti. Aliquam dolorum quia corrupti libero!
+                Quas, voluptatem magni doloremque pariatur repellendus laudantium exercitationem amet quis, quidem dolorum eos hic repudiandae vero enim, fugiat quibusdam dolor cumque odio a! Facere aperiam ipsa quas adipisci non ab.
+                Tenetur natus nemo error eligendi! Delectus reprehenderit molestias vero quo? Optio sint illo voluptatem voluptatum ab quia aliquid nostrum ad totam sapiente? Esse adipisci veritatis hic dolore soluta aspernatur aliquid.
+                Nisi commodi minus culpa inventore porro, quos optio amet fugiat voluptates? Unde est cupiditate, vero, debitis impedit enim amet optio aliquid exercitationem, laborum adipisci possimus tenetur ut doloremque. Praesentium, deserunt.
+                Dolores molestiae excepturi ex exercitationem totam soluta debitis voluptatibus nemo. Necessitatibus exercitationem, unde ducimus ipsa voluptas, esse error odit eos repellendus, laudantium explicabo consequatur maiores ut amet quod ratione consectetur?
+                Nihil eum nobis est ex accusantium, minima earum dignissimos. Modi fugit laborum totam eligendi? Officia ratione excepturi accusamus repellat, blanditiis officiis error. Neque quasi perferendis qui velit accusamus ratione. Quaerat?
+                Deleniti ullam maiores veniam consequuntur voluptate quae optio fugit a repellat odio. Soluta neque necessitatibus minima distinctio incidunt, dolorem dolor sit aperiam delectus cumque aliquid, dicta corporis? Veritatis, fugit aut.
+                Architecto aliquid ipsam dolor nisi cupiditate qui reiciendis distinctio, atque fugiat. Labore, mollitia deleniti distinctio odio magnam ipsum reprehenderit itaque aut eveniet eius, dolor unde obcaecati. Expedita minus quod delectus?
+                Iure aut consequatur exercitationem temporibus, libero iste esse adipisci praesentium, eos deleniti itaque ab nihil quidem nam cum, earum veniam mollitia maxime reprehenderit autem tempore! Natus unde nostrum quasi cumque?
+                Possimus rem necessitatibus expedita quos aspernatur aperiam, corrupti nesciunt dolores ab voluptatem atque in accusantium, vel sunt dolore ullam placeat excepturi! Iste provident sapiente nam ducimus impedit, id minus. Voluptates.
+                Recusandae placeat soluta atque magni. Architecto possimus tenetur velit maiores magnam vero soluta laboriosam aliquid. Incidunt possimus eveniet neque accusantium tempora! Eius modi distinctio unde, voluptates temporibus consequatur placeat eum!
+                Officiis dolore delectus corporis ipsa expedita hic tenetur tempora. Necessitatibus quasi consequuntur aspernatur, perferendis in velit similique nihil delectus debitis, minus asperiores, fugiat distinctio eum quaerat quo! Voluptatem, dolores in.
+                Recusandae voluptas earum sunt deleniti quod! Fugiat dolor tenetur ullam enim voluptatem. Corrupti, accusamus? Hic ab delectus quod, vel repellendus cupiditate sit maxime. Vitae iure exercitationem est recusandae amet. A.
+                Dolorem, nihil! Rerum distinctio a esse error cupiditate! Dolor voluptate repellat quos nostrum pariatur excepturi accusantium dignissimos debitis nisi at dolore a laborum quo, reiciendis saepe nemo assumenda eaque quibusdam!
+                Sequi, aliquam rem tempora, itaque eius unde nisi, eos illum debitis corrupti sapiente consectetur soluta facere maiores ut saepe. Quia nemo perferendis enim corporis optio dicta sunt? Exercitationem, perferendis animi?
+              </p>
+            </div>
+
+            <div class="candidate-info">
+                <h1>Search Candidates</h1>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sed sapiente, similique sunt obcaecati aspernatur ullam eaque rerum, beatae mollitia labore maiores libero. Rerum amet recusandae minus, asperiores alias voluptate.
+                Asperiores nisi, cum rem, quis qui eius quae inventore omnis, maiores optio unde eaque! Beatae ipsum aperiam sint dicta eos eveniet laudantium, voluptatum quas natus, dolores facilis, necessitatibus rerum! Asperiores?
+                Sapiente totam aspernatur beatae asperiores est repellat, eveniet voluptatum accusamus ipsa tempore debitis, amet architecto eius soluta quis consequatur repudiandae odit, sint quidem veniam necessitatibus. Eaque voluptatibus quis incidunt error?
+                Eligendi nihil explicabo esse! Rem repellendus ratione placeat, beatae impedit distinctio quaerat quia sapiente voluptas vel dignissimos, eum quos consequuntur et recusandae voluptatum! Fugit, exercitationem aspernatur debitis perspiciatis itaque ducimus.
+                Expedita illo quod, aspernatur est error dolor inventore reiciendis dolores, suscipit necessitatibus, accusantium laudantium vel eum sed sequi provident facere sapiente velit minus? Non, dolore. Natus facilis vero molestiae numquam!
+                Repudiandae eveniet placeat recusandae rem omnis, delectus molestias soluta a excepturi corrupti deserunt repellat aliquam hic quibusdam natus quam illo, quas cumque totam ducimus ratione cupiditate ipsam, sint quidem. Cum?
+                Perferendis ullam sequi ipsum asperiores dolore ipsam dolorem quaerat deleniti sint, neque assumenda perspiciatis totam maiores aliquam quis pariatur, qui quia molestiae sit reiciendis voluptate error consectetur! Deleniti, pariatur dolor?
+                Debitis libero, quas nam aliquid omnis, provident sunt rerum pariatur aperiam maxime ab. Tempore corporis molestiae error inventore ducimus laborum velit, fugiat consequatur exercitationem rem illo minus. Nam, maiores aperiam!
+                Ducimus, aperiam, optio repellat vel mollitia assumenda facere quas in aliquid amet voluptatibus quasi, omnis praesentium perferendis veniam error nesciunt ullam quae eos accusamus libero et tenetur dolore. Aperiam, vero?
+                Dicta, voluptatum fuga suscipit recusandae incidunt nam harum id quibusdam corrupti natus ipsa autem ipsum quis blanditiis inventore velit praesentium totam architecto ea nostrum voluptatibus perferendis quaerat iure? Ratione, reprehenderit.</p>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="requisition-info">
+                <h1>Edit Requsiitions</h1>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsam, esse eaque veritatis fugit aliquid laboriosam et. Quaerat aut error, asperiores culpa, amet rerum cum recusandae, sapiente at nemo animi.
+                Reiciendis harum, quaerat sequi voluptatum modi nesciunt. Laborum assumenda nostrum, repudiandae quidem at eligendi! Sint cupiditate autem doloribus rerum repudiandae cumque explicabo ipsum, porro cum. Expedita consequuntur ipsa accusamus ipsam!
+                Exercitationem ipsum quis ab reprehenderit ut corrupti quidem cum aut? Nihil quisquam ad id optio dignissimos dolores tempore mollitia corrupti exercitationem laudantium vel illum, libero ratione voluptate sint alias perspiciatis?
+                Dolore temporibus odit deserunt accusamus voluptate tenetur. Dolores quos est dolore, excepturi eveniet totam. Culpa cum minus vel! Rerum animi nostrum odio eum debitis consequatur consectetur sequi vero voluptatum excepturi.
+                Deserunt iste vero laudantium facere! Commodi minima natus debitis atque reprehenderit deleniti id animi aliquid adipisci placeat ad est, accusantium saepe praesentium assumenda cupiditate aperiam temporibus! Odio consectetur molestiae hic!
+                Earum optio illo nulla necessitatibus iusto veniam maiores in accusamus quisquam officia laboriosam soluta error, tempora itaque voluptatibus cupiditate facere autem ea corporis rerum amet deserunt, molestiae dignissimos inventore. Quis.</p>
+            </div>
+
+
+
+        </div>
+
+
+    </main>
+
+
+    
+</body>
+</html>
